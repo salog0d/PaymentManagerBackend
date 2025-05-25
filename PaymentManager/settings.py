@@ -108,7 +108,8 @@ DATABASES = {
 }
 """
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True  # Solo para desarrollo
+
 
 # Django REST Framework configuration
 REST_FRAMEWORK = {
