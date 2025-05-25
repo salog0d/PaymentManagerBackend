@@ -87,14 +87,9 @@ WSGI_APPLICATION = 'PaymentManager.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
 
 # Configuración para PostgreSQL (comentada)
+
 """
 DATABASES = {
     'default': {
@@ -107,6 +102,14 @@ DATABASES = {
     }
 }
 """
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
 
 CORS_ALLOW_ALL_ORIGINS = True  # Solo para desarrollo
 

@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "corsheaders"
+    ],
+    "python.analysis.extraPaths": [
+        "./apps"
     ]
 }
