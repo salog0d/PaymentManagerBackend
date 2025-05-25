@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+
+# Django migrations
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.mo
+*.pkl
+db.sqlite3
+
+# VSCode settings
+.vscode/
+.env
+*.env
+
+# Byte-compiled / cache
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+.env/
