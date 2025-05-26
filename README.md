@@ -4,6 +4,8 @@ Sistema de gestión de pagos y domiciliaciones bancarias desarrollado en Django 
 
 ## Arquitectura del Sistema
 
+![Imagen de WhatsApp 2025-05-25 a las 11 47 46_24a5abf3](https://github.com/user-attachments/assets/a610a70a-4777-478d-bfa2-4d89b1c17f9f)
+
 ### Stack Tecnológico
 
 - **Framework Backend**: Django 5.2.1 + Django REST Framework 3.16.0
